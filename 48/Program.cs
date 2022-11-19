@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Введите количество строк");
+﻿// Задача 48: Задайте двумерный массив размера m на n, 
+// каждый элемент в массиве находится по формуле: Aₙₙ = m+n. 
+// Выведите полученный массив на экран.
+
+Console.WriteLine("Введите количество строк");
 bool isParsedM = int.TryParse(Console.ReadLine(), out int m);
 Console.WriteLine("Введите количество столбцов");
 bool isParsedN = int.TryParse(Console.ReadLine(), out int n);
