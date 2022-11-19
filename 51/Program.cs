@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Введите количество строк");
+﻿/* Задача 51: Задайте двумерный массив. Найдите сумму
+элементов, находящихся на главной диагонали (с индексами
+(0,0); (1;1) и т.д. */ 
+
+Console.WriteLine("Введите количество строк");
 bool isParsedM = int.TryParse(Console.ReadLine(), out int m);
 Console.WriteLine("Введите количество столбцов");
 bool isParsedN = int.TryParse(Console.ReadLine(), out int n);
